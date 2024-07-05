@@ -65,7 +65,7 @@ const TakeAction = () => {
 
 
                     <NavLink to="/contact">
-                    <Button href="Contact" variant="primary">
+                    <Button href="contact" variant="primary">
                         Contact us
                     </Button>
             </NavLink>
@@ -75,7 +75,7 @@ const TakeAction = () => {
                 <div className="donate-btn text-center">
                     <div>To donate</div>
                     <NavLink to="/donate">
-                    <Button href="Donate" variant="primary">
+                    <Button href="donate" variant="primary">
                         Donate
                     </Button>
             </NavLink>
