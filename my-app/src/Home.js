@@ -2,6 +2,7 @@ import './Home.css';
 import './App.css';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { NavLink } from 'react-router-dom';
 
 import { FaSchool, FaGraduationCap, FaUserGraduate, FaChalkboardTeacher, FaBookOpen, FaBriefcase } from 'react-icons/fa';
 
@@ -9,6 +10,8 @@ import afghanGirls from './assets/landing_page_img.webp';
 import primaryEdu from './assets/primary_edu_img.webp';
 import collegeEdu from './assets/college_img.webp';
 import UniversityEdu from './assets/university_img.webp';
+
+import WhatWeDo from './WhatWeDo';
 
 const Home = () => {
     return (
@@ -108,10 +111,15 @@ const Home = () => {
 
 
             <div className="explore-btn">
-                <Button href="WhatWeDo" variant="primary">
+            <NavLink to="/WhatWeDo">
+            <Button href="/WhatWeDo" variant="primary">
                     Explore what we do
                 </Button>
+            </NavLink>
+                
             </div>
+
+            
 
 
 
