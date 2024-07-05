@@ -5,35 +5,48 @@ import {
 
 } from "react-router-dom";
 
+
 import './App.css';
-import Home from './Home';
+
 import Header from './Header';
 import Footer from './Footer';
-import Donate from './Donate';
+import Home from './Home';
+import AboutOruj from './AboutOruj';
+import WhatWeDo from './WhatWeDo';
+import TakeAction from './TakeAction';
 import Contact from './Contact';
-import About from './AboutOruj';
+import Donate from './Donate';
+
+
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import { Footer } from './footer';
 
 
 function App() {
-  return (
 
-    <Router basename="/SEG3125_project2">
-      <div className="App">
-        {/* <Header /> */}
-        <main>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/donate" element={<Donate />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
-    </Router>
+  return (
+    <Router>
+    <div className="App">
+      <Header />
+
+      <main className="content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutOruj />} />
+          <Route path="/WhatWeDo" element={<WhatWeDo />} />
+          <Route path="/takeAction" element={<TakeAction />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/donate" element={<Donate />} />
+        </Routes>
+      </main>
+
+      <Footer />
+    </div>
+  </Router>
+
+    
 
 
   );

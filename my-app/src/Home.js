@@ -108,7 +108,7 @@ const Home = () => {
 
 
             <div className="explore-btn">
-                <Button href="WhatWeDo.js" variant="primary">
+                <Button href="WhatWeDo" variant="primary">
                     Explore what we do
                 </Button>
             </div>

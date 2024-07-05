@@ -62,7 +62,7 @@ const TakeAction = () => {
                 <div className="contact-btn text-center">
                     <div>For further information</div>
 
-                    <Button href="Contact.js" variant="primary">
+                    <Button href="Contact" variant="primary">
                         Contact us
                     </Button>
                 </div>
@@ -70,7 +70,7 @@ const TakeAction = () => {
                 <div className="donate-btn text-center">
                     <div>To donate</div>
 
-                    <Button href="Donate.js" variant="primary">
+                    <Button href="Donate" variant="primary">
                         Donate
                     </Button>
                 </div>

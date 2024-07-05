@@ -8,7 +8,9 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-logo">
+            <a className="logo" href="/">
                     <img src={logo} alt="Oruj Learning Center Logo" />
+                    </a>
                 </div>
             <div className="footer-content">
                 
