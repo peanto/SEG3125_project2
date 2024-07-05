@@ -19,17 +19,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    // <div className="App">
-    //   <Header />
 
-    //   <div className="content">
-    //     <Home />
-    //   </div>
-    //   <div className="content">
-    //     <Footer />
-    //   </div>
-
-<Router basename="/SEG3125_project2">
+    <Router basename="/SEG3125_project2">
       <div className="App">
         {/* <Header /> */}
         <main>
@@ -45,7 +36,6 @@ function App() {
     </Router>
 
 
-    // </div>
   );
 
 }
