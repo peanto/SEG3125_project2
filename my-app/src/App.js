@@ -14,6 +14,10 @@ function App() {
   return (
     <div className="App">
       <Header />
+
+      <div className="content">
+        <Home />
+      </div>
       <div className="content">
         <Footer />
       </div>
