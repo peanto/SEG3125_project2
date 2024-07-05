@@ -27,7 +27,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
 
   return (
-    <Router>
+    <Router basename="/SEG3125_project2">
     <div className="App">
       <Header />
 

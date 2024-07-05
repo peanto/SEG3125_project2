@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-logo">
-            <a className="logo" href="/">
+            <a className="logo" href="/SEG3125_project2">
                     <img src={logo} alt="Oruj Learning Center Logo" />
                     </a>
                 </div>

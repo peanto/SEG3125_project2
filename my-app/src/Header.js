@@ -19,7 +19,7 @@ function Header() {
   return (
     <header className="App-header">
       <Container className="Header-top">
-        <a className="logo" href="/">
+        <a className="logo" href="/SEG3125_project2">
           <img src={logo} className="App-logo" alt="logo" />
         </a>
 
