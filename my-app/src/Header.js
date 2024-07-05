@@ -30,16 +30,16 @@ function Header() {
 
 
                 </a>
-                
+
                 <div class="d-flex">
 
 
-                   
+
 
                     <div className='help-buttons'>
-                    <Nav.Link className="switch-lang" href="#home">درى پښتو
-                        <img className="switch-lang-icon" src={langIcon} alt="Change language" />
-                    </Nav.Link>
+                        <Nav.Link className="switch-lang" href="#home">درى پښتو
+                            <img className="switch-lang-icon" src={langIcon} alt="Change language" />
+                        </Nav.Link>
                         <Button href="Contact.js" variant="primary">Contact Us</Button>
                         <Button href="Donate.js" variant="primary">Donate</Button>
                     </div>
