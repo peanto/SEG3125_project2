@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/oruj-edu/static/css/main.9feba796.css",
+    "main.js": "/oruj-edu/static/js/main.b0a64d24.js",
+    "static/js/453.ed3810f9.chunk.js": "/oruj-edu/static/js/453.ed3810f9.chunk.js",
+    "static/media/landing_page_img.webp": "/oruj-edu/static/media/landing_page_img.ad018ec868552462d47f.webp",
+    "static/media/university_img.webp": "/oruj-edu/static/media/university_img.121d5959c6dbee399d4c.webp",
+    "static/media/college_img.webp": "/oruj-edu/static/media/college_img.63743e85636a60a39025.webp",
+    "static/media/oruj_logo.jpeg": "/oruj-edu/static/media/oruj_logo.55c2f6544dba5e3f26dd.jpeg",
+    "static/media/primary_edu_img.webp": "/oruj-edu/static/media/primary_edu_img.f936d6f3971be222fe50.webp",
+    "index.html": "/oruj-edu/index.html",
+    "main.9feba796.css.map": "/oruj-edu/static/css/main.9feba796.css.map",
+    "main.b0a64d24.js.map": "/oruj-edu/static/js/main.b0a64d24.js.map",
+    "453.ed3810f9.chunk.js.map": "/oruj-edu/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9feba796.css",
+    "static/js/main.b0a64d24.js"
+  ]
+}
